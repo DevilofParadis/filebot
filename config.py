@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "25374144"))
 API_HASH = os.environ.get("API_HASH", "4f1efaef6551e30c5fa3a7b9dac7cf8e")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001575003822"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001920102302"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5751548638"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kacxx1:mongo123@cluster0.
 DB_NAME = os.environ.get("DATABASE_NAME", "LocusFileBot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001846340634"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001575003822"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
